@@ -17,6 +17,10 @@ This repository contains the following files:
 ### Main
 - Main.java
 
+### BST
+- BSTApp (Creation of BST)
+
+
 ### Arrays
 - BinarySearch.java
 - BubbleSort.java
