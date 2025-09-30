@@ -1,31 +1,46 @@
-.gitignore
-.idea/.gitignore
-.idea/material_theme_project_new.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/uiDesigner.xml
-.idea/vcs.xml
-README.md
-src/Main.java
-src/arrays/BinarySearch.java
-src/arrays/BubbleSort.java
-src/arrays/DeleteFromArray.java
-src/arrays/InsertAtFirst.java
-src/arrays/InsertionSort.java
-src/arrays/MergeSort.java
-src/arrays/QuickSort.java
-src/arrays/SearchElement.java
-src/arrays/Segregate0s1s.java
-src/arrays/SegregateEvenOdds.java
-src/arrays/SelectionSort.java
-src/streams/AllDuplicateElements.java
-src/streams/CountOccurence.java
-src/streams/DuplicateElements.java
-src/streams/Slice.java
-src/streams/StreamReuseExample.java
-src/string/ReplaceCharacterInString.java
-src/string/ReverseIndividualWords.java
-src/string/ReverseString.java
-src/string/ReverseWords.java
-src/string/StringFirstCharater.java
-src/string/TrimString.java
+# Project Files
+
+This repository contains the following files:
+
+## Configuration and IDE
+- .gitignore
+- .idea/.gitignore
+- material_theme_project_new.xml
+- misc.xml
+- modules.xml
+- uiDesigner.xml
+- vcs.xml
+- README.md
+
+## Source Code
+
+### Main
+- Main.java
+
+### Arrays
+- BinarySearch.java
+- BubbleSort.java
+- DeleteFromArray.java
+- InsertAtFirst.java
+- InsertionSort.java
+- MergeSort.java
+- QuickSort.java
+- SearchElement.java
+- Segregate0s1s.java
+- SegregateEvenOdds.java
+- SelectionSort.java
+
+### Streams
+- AllDuplicateElements.java
+- CountOccurence.java
+- DuplicateElements.java
+- Slice.java
+- StreamReuseExample.java
+
+### String
+- ReplaceCharacterInString.java
+- ReverseIndividualWords.java
+- ReverseString.java
+- ReverseWords.java
+- StringFirstCharater.java
+- TrimString.java
