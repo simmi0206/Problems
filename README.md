@@ -51,9 +51,10 @@ This repository contains the following files:
 - StreamReuseExample.java
 
 ### String
+- Print first character of every word
+- Trim the String
 - ReplaceCharacterInString.java
 - ReverseIndividualWords.java
 - ReverseString.java
 - ReverseWords.java
 - StringFirstCharater.java
-- TrimString.java
