@@ -123,6 +123,108 @@ class BST {
         }
 
     }
+
+    public Node getParentNode(Node node, int value) {
+        if(node==null)
+        {
+            return null;
+        }
+
+        Node getParentNode = null;
+        while(node!=null){
+            if(value<node.data)
+            {
+                getParentNode=node;
+                node=node.left;
+            }else if (value>node.data){
+                getParentNode=node;
+                node=node.right;
+            }else {
+                break;
+            }
+        }
+        return getParentNode;
+    }
+
+    public Node getSiblingNode(Node node, int val) {
+        if(node==null || node.data==val)
+        {
+            return null;
+        }
+        Node parentNode=null;
+        while(node!=null){
+            if(val< node.data)
+            {
+                parentNode=node;
+                node=node.left;
+            }
+            else if(val>node.data)
+            {
+                parentNode=node;
+                node=node.right;
+            }else {
+                break;
+            }
+        }
+
+        if(parentNode.left!=null && val==parentNode.left.data)
+        {
+            return parentNode.right;
+        }else if (parentNode.right!=null && val==parentNode.right.data){
+            return parentNode.left;
+        }
+        return null;
+    }
+
+    public Node getInorderParentNode(Node node, int val) {
+        if (node==null)
+        {
+            return null;
+        }
+
+        Node inorderParentNode =null;
+        while(node!=null)
+        {
+            if(val<node.data)
+            {
+                inorderParentNode =node;
+                node=node.left;
+            } else if (val>node.data) {
+                node=node.right;
+            }
+            else {
+                break;
+            }
+        }
+
+        return node!=null ? inorderParentNode:null;
+    }
+
+    public Node getInorderSuccessorNode(Node node, int val) {
+        if(node==null)
+        {
+            return null;
+        }
+        Node inorderSuccessorNode=null;
+        while(node!=null)
+        {
+            if(val<node.data)
+            {
+                inorderSuccessorNode=node;
+                node=node.left;
+            } else if (val>node.data) {
+                node=node.right;
+            }
+            else {
+                if(node.right!=null)
+                {
+                    inorderSuccessorNode = getSuccesor(node);
+                }
+                break;
+            }
+        }
+        return node!=null?inorderSuccessorNode:null;
+    }
 }
 
 
@@ -152,6 +254,41 @@ public class BSTApp {
 //            System.out.println("Value "+ val+" exists in Tree");
 //        }else {
 //            System.out.println("Value " + val+" does not exists in Tree");
+//        }
+
+//        Node parentNode=bst.getParentNode(root,13);
+//        if (parentNode!=null)
+//        {
+//            System.out.println("Parent node is "+parentNode.data);
+//        }
+//        else{
+//            System.out.println("Parent Node does not exits");
+//        }
+
+//        Node sibling=bst.getSiblingNode(root,8);
+//        if(sibling!=null)
+//        {
+//            System.out.println("Sibling node is "+sibling.data);
+//        }
+//        else{
+//            System.out.println("Sibling node does not exits");
+//        }
+
+//        Node inorderParentNode=bst.getInorderParentNode(root,14);
+//        if(inorderParentNode!=null)
+//        {
+//            System.out.println("inorderParentNode node is "+inorderParentNode.data);
+//        }
+//        else{
+//            System.out.println("inorderParentNode node does not exits");
+//        }
+//        Node inorderSuccessorNode=bst.getInorderSuccessorNode(root,3);
+//        if(inorderSuccessorNode!=null)
+//        {
+//            System.out.println("inorderParentNode node is "+inorderSuccessorNode.data);
+//        }
+//        else{
+//            System.out.println("inorderParentNode node does not exits");
 //        }
 
         bst.print(root);

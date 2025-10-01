@@ -24,6 +24,10 @@ This repository contains the following files:
 - Print PostOrder Traversal
 - Print PreOrder Traversal
 - Check if Node Present
+- Get parent node of a given value in Binary Search Tree
+- Get Sibling Node of given value in Binary Search Tree
+- Get Inorder Parent for a given value in Binary Search Tree
+- Get Inorder Successor of a given value in Binary Search Tree
 
 
 ### Arrays
