@@ -19,6 +19,11 @@ This repository contains the following files:
 
 ### BST
 - BSTApp (Creation of BST)
+- Delete a node
+- Print InOrder Traversal
+- Print PostOrder Traversal
+- Print PreOrder Traversal
+- Check if Node Present
 
 
 ### Arrays
