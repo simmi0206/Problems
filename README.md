@@ -65,8 +65,8 @@ This repository contains the following files:
 - ShortestSubarrayWithLeastK
 
 ### Leetcode
-- 2461. Maximum Sum of Distinct Subarrays With Length K
-- 209. Minimum Size Subarray Sum
-- 862. Shortest Subarray with Sum at Least K
-- 3477. Fruits Into Baskets II
-- 904. Fruits Into Baskets
+- (2461.) Maximum Sum of Distinct Subarrays With Length K
+- (209.) Minimum Size Subarray Sum
+- (862.) Shortest Subarray with Sum at Least K
+- (3477.) Fruits Into Baskets II
+- (904.) Fruits Into Baskets
