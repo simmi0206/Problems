@@ -70,3 +70,5 @@ This repository contains the following files:
 - (862.) Shortest Subarray with Sum at Least K
 - (3477.) Fruits Into Baskets II
 - (904.) Fruits Into Baskets
+- (242.) Valid Anagram
+- (3) 3. Longest Substring Without Repeating Characters
