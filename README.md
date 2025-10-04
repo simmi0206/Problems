@@ -58,3 +58,7 @@ This repository contains the following files:
 - ReverseString.java
 - ReverseWords.java
 - StringFirstCharater.java
+- ContinousK
+- MaximumSubarraySum
+- SmallestContiguosSubArray
+- SubarraysOfDistinct
