@@ -29,7 +29,6 @@ This repository contains the following files:
 - Get Inorder Parent for a given value in Binary Search Tree
 - Get Inorder Successor of a given value in Binary Search Tree
 
-
 ### Arrays
 - BinarySearch.java
 - BubbleSort.java
@@ -42,6 +41,7 @@ This repository contains the following files:
 - Segregate0s1s.java
 - SegregateEvenOdds.java
 - SelectionSort.java
+- MaximumSubarraySum.java
 
 ### Streams
 - AllDuplicateElements.java
@@ -49,8 +49,18 @@ This repository contains the following files:
 - DuplicateElements.java
 - Slice.java
 - StreamReuseExample.java
+- Average.java
+- DuplicateNumbers.java
+- EvenOdd.java
+- Limit.java
+- MaxMin.java
+- NumberStartsWith.java
+- PrintSumOfAllNumbers.java
+- SecondLowestHighestNumber.java
+- SortNumbers.java
+- SquareFilterAverage.java
 
-### String
+### String / Practical
 - Print first character of every word
 - Trim the String
 - ReplaceCharacterInString.java
@@ -63,6 +73,22 @@ This repository contains the following files:
 - SmallestContiguosSubArray
 - SubarraysOfDistinct
 - ShortestSubarrayWithLeastK
+- StringClass.java
+- StringPool.java
+
+### Multithreading / Practical
+- Counter.java
+- RaceCondition.java
+
+### TUF (Theory / Practice)
+- SecondLargestElement.java
+- CountingFrequenciesofArrayElements.java
+- MostFrequentElement.java
+- LargestOddNumber.java
+- LongestCommonPrefix.java
+- RemoveOuterParentheses.java
+- ReverseString.java
+- ReverseWords.java
 
 ### Leetcode
 - (2461.) Maximum Sum of Distinct Subarrays With Length K
@@ -72,3 +98,10 @@ This repository contains the following files:
 - (904.) Fruits Into Baskets
 - (242.) Valid Anagram
 - (3) 3. Longest Substring Without Repeating Characters
+- (205) IsIsomorphic.java
+- (14) LongestCommonPrefix.java
+- (169 )MajorityElement.java
+- MaximunSubarray.java
+- (151) ReverseWords.java
+- (451) SortCharactersByFrequency.java
+

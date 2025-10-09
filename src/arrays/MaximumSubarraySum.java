@@ -7,12 +7,11 @@ import java.util.Set;
 
 public class MaximumSubarraySum {
     public static void main(String[] args) {
-        int[] nums = {9,9,9,3,4};
+        int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         int k=3;
-        long max=maximumSubarraySum(nums,k);
+        long max = maximumSubarraySum(nums,k);
         System.out.println(max);
     }
-
     public static long maximumSubarraySum(int[] nums, int k) {
         long maxSum = 0;
         long sum = 0;
@@ -46,9 +45,7 @@ public class MaximumSubarraySum {
         return maxSum;
     }
 
-
-
-
+}
 //    public static long maximumSubarraySum(int[] nums, int k) {
 //        Map<Integer, Integer> countMap = new HashMap<>();
 //        long windowSum = 0;
@@ -83,4 +80,4 @@ public class MaximumSubarraySum {
 //
 //
 //    }
-}
+
